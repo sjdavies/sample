@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-au" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-au">
+<head>
+<base id="baseUrl" href="http://localhost:8080" />
+<title>National Library of Australia</title>
+<link rel="stylesheet" type="text/css" media="screen,print" href="/css/styles.css" />
+<script type="text/javascript">
+//<![CDATA[
+      path = '';
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+      function searchFocus(event) {
+        if (event == null || event.index == null) return;
+        if (event.index == 0) document.getElementById('lookfor').focus();
+        if (event.index == 1) document.getElementById('browsefor').focus();
+      }
+      var tabberOptions = {
+        'manualStartup': true,
+        'onTabDisplay': searchFocus
+      };
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+      var typewatch = function(){
+      var timer = 0;
+      return function(callback, ms){
+      clearTimeout (timer);
+      timer = setTimeout(callback, ms);
+      }  
+      }();
+//]]>
+</script>
+</head>
+<body>
+<!-- These need to go at the top level so they can take up the whole
+       page as required. -->
+<div><a name="googlepane" id="googlepane"></a></div>
+<div class="googlepane" id="viewerCanvas"></div>
+<div onclick="closePreview ();" id="fade" class="black_overlay"></div>
+<p class="nla row text-center"><a href="http://localhost:8080">National Library of Australia</a></p>
+<div><a onclick="hideLightbox(); return false;"></a>
+<div id="lightbox"></div>
+</div>
+<div id="hd">
+<div id="header" style="position : absolute; left : 0px;"><a id="header_title" title="Back to home" href="/" name="header_title"><img style="position : relative; top : -10px;" src="/images/logobg.png" id="nlalogo" alt="-" /></a></div>
+<div id="user-toolbar">
+</div>
+<div id="navheader"><a href="/people">People</a> | <a href="/books">Books</a></div>
+</div>

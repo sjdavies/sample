@@ -1,0 +1,17 @@
+drop table if exists loan;
+drop table if exists person;
+drop table if exists book;
+create table person(id int primary key, name varchar(255), phone varchar(255), email varchar(255));
+create table book(id int primary key, title varchar(255), author varchar(255), isbn varchar(255));
+insert into person(id, name, phone, email) values (1, 'Elmer Fudd', '(555) 123-4567', 'elmer@wb.com');
+insert into person(id, name, phone, email) values (2, 'Bugs Bunny', '(555) 123-4568', 'bugs@wb.com');
+insert into person(id, name, phone, email) values (3, 'Yosemite Sam', '(555) 123-4321', 'sam@wb.com');
+insert into person(id, name, phone, email) values (4, 'Fred Flintstone', '(202) 555-9374', 'fred@hannabarbera.com');
+insert into person(id, name, phone, email) values (5, 'Wilma Flintstone', '(202) 555-3456', 'wilma@hannabarbera.com');
+insert into person(id, name, phone, email) values (6, 'Betty Rubble', '0418 123 456', 'betty@hannabarbera.com');
+insert into person(id, name, phone, email) values (7, 'Barney Rubble', '(202) 555-0987', 'barnyard@hannabarbera.com');
+insert into book(id, title, author, isbn) values(1, 'Great Expectations', 'Charles Dickens', '13-1111-1111111');
+insert into book(id, title, author, isbn) values(2, 'Moby Dick', 'Herman Melville', '13-2222-2222222');
+insert into book(id, title, author, isbn) values(3, 'Oliver Twist', 'Charles Dickens', '13-3333-333333');
+insert into book(id, title, author, isbn) values(4, 'A Twist in the Tale', 'James Archer', '13-4444-4444444');
+insert into book(id, title, author, isbn) values(5, 'Casino Royale', 'Ian Fleming', '13-5555-5555555');

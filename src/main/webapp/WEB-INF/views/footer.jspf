@@ -1,0 +1,27 @@
+<!-- NLA Footer -->
+<div class="page" id="footer-global">
+<div class="container">
+<div class="row footer-brand">
+<div class="col-md-6 col-sm-6"><a class="header__logo svg" rel="home" title="Home" href="http://www.nla.gov.au/" style="padding: 24px 0;"><img alt="NLA logo" src="/images/nla-header-landscape-white_1_0.png" /></a></div>
+<div class="col-md-6 col-sm-6 clearfix">
+<div class="region region-footer-global">
+<div class="block block-block first last odd" id="block-block-15">
+<ul class="services" style="padding-top:18px;font-size:18px;margin-bottom:0;">
+<li><a href="http://trove.nla.gov.au/">Trove</a></li>
+<li><a href="http://www.nla.gov.au/app/eresources">eResources</a></li>
+</ul>
+<ul class="about-this-site">
+<li><a href="http://www.nla.gov.au/feedback">Feedback</a></li>
+<li><a href="http://www.nla.gov.au/about-this-site/privacy">Privacy</a></li>
+<li><a href="http://www.nla.gov.au/about-this-site/copyright">Copyright</a></li>
+<li><a href="http://www.nla.gov.au/about-this-site/accessibility">Accessibility</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- / NLA Footer --></div>
+</body>
+</html>
