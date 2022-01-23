@@ -12,8 +12,8 @@
     <eclipselink.version>2.6.0</eclipselink.version>
     <jetty.version>9.2.11.v20150529</jetty.version>
     <jpa.version>2.1.0</jpa.version>
-    <h2.version>1.4.187</h2.version>
-    <spring.version>4.1.6.RELEASE</spring.version>
+    <h2.version>[2.1.210,)</h2.version>
+    <spring.version>[4.3.17,)</spring.version>
   </properties>
   
   <dependencies>
